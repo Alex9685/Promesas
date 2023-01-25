@@ -1,0 +1,241 @@
+p {
+    padding: 0p;
+}
+
+#centrado{
+    background-color: #000000;
+    width: 100%;
+}
+#respuesta {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: px;
+    border-style: solid;
+    width: 80%;
+
+}
+
+#encabezado {
+    color: rgb(255, 1, 1);
+    background-color: #0e0f0f;
+    text-align: center;
+    border-style: solid;
+    width: 90%;
+
+}
+
+hr {
+    background-color: #000000;
+    border-style: dashed doube none;
+    height: 2px;
+    border-radius: 20px;
+}
+
+#btnPeticion {
+    border-radius: 20px;
+    background-color: #b800e6;
+    height: 50px;
+    width: 100px;
+    transition-duration: 0.4s;
+}
+
+
+#btnPeticion:hover {
+    background-color: #fc4e4e;
+    box-shadow: 0 2px 30px 0 rgba(255, 255, 255, 0.2), 0 2px 30px 0 rgba(255, 255, 255, 0.19);
+
+}
+
+.card {
+    display: inline-block;
+    margin: 1em;
+    background-color: rgba(199, 199, 199, 0.704);
+    width: 250px;
+    border-radius: 0.5em;
+    box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff;
+        
+}
+
+
+
+.title {
+    margin-top: -18px;
+    background-color: rgba(183, 151, 255, 0.732);
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.lblTitle {
+    background-color: rgba(94, 57, 128, 0.899);
+    color: white;
+    border-bottom: rgb(250, 166, 166) 3px ridge;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.txtTitle {
+    color: rgb(0, 0, 0);
+    padding-left: 7px;
+    padding-right: 7px;
+    border-bottom: rgb(233, 233, 233) 3px ridge;
+    text-align: justify;
+    height: 80px;
+}
+
+.img {
+    border-bottom: rgb(233, 233, 233) 3px ridge;
+    padding-top: 5px;
+}
+
+.imgs {
+
+    width: 200px;
+}
+
+.ids {
+    height: auto;
+}
+
+.lblIds {
+    display: inline-flex;
+    background-color: rgba(81, 29, 130, 0.899);
+    height: 20%;
+    border-radius: 0.5em;
+}
+
+.lblAlbumId {
+    background-color: rgba(81, 29, 130, 0.899);
+    color: white;
+    width: 130px;
+}
+
+.lblId {
+    background-color: rgba(81, 29, 130, 0.899);
+    color: white;
+    width: 120px;
+}
+
+.txtIds {
+    display: inline-flex;
+    height: 48%;
+    color: rgb(0, 0, 0);
+}
+
+.txtAlbumId {
+    width: 120px;
+    background-color: rgba(162, 165, 248, 0.899);
+}
+
+.txtId {
+    width: 120px;
+    background-color: rgba(162, 165, 248, 0.899);
+    color: rgb(0, 0, 0);
+}
+
+.modalSiguiente {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalSiguiente:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalSiguiente>div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+.cerrar {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.cerrar:hover {
+    background: red;
+}
+
+
+#btnResultado {
+    background-color: aqua;
+    color: black;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    animation: pulsate 1.5s infinite alternate;
+    border: 1px solid aqua;
+    box-shadow: 0 0 .2rem aqua,
+}
+
+#btnResultado:hover {
+    background-color: #ffffff;
+    transition-duration: 0.4s;
+
+}
+
+
+#encabezado {
+    border-radius: 20px;
+    width: 90%;
+}
+
+#contenido {
+    width: 90%;
+    height: 1000px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    animation: pulsate 1.5s infinite alternate;
+    border: 1px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+}
+
+
+
+body {
+    background-color: #000000ee;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    background-color: rgb(111, 0, 255);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    animation: pulsate 1.5s infinite alternate;
+    border: 1px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+}
+

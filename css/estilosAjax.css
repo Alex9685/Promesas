@@ -33,18 +33,23 @@ hr {
     border-radius: 20px;
 }
 
-#btnPeticion {
-    border-radius: 20px;
-    background-color: #b800e6;
-    height: 50px;
+
+#btnLimpiar {
+    background-color: rgb(239, 113, 63);
+    color: black;
     width: 100px;
-    transition-duration: 0.4s;
+    height: 25px;
+    border-radius: 10px;
+    animation: pulsate 1.5s infinite alternate;
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0 0 .2rem rgb(255, 0, 0),
 }
 
 
-#btnPeticion:hover {
-    background-color: #fc4e4e;
-    box-shadow: 0 2px 30px 0 rgba(255, 255, 255, 0.2), 0 2px 30px 0 rgba(255, 255, 255, 0.19);
+
+#btnLimpiar:hover {
+    background-color: #00ff08;
+    transition-duration: 0.4s;
 
 }
 
@@ -188,18 +193,18 @@ hr {
 
 
 #btnResultado {
-    background-color: aqua;
+    background-color: rgb(239, 113, 63);
     color: black;
     width: 100px;
     height: 25px;
     border-radius: 10px;
     animation: pulsate 1.5s infinite alternate;
-    border: 1px solid aqua;
-    box-shadow: 0 0 .2rem aqua,
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0 0 .2rem rgb(255, 0, 0),
 }
 
 #btnResultado:hover {
-    background-color: #ffffff;
+    background-color: #00ff08;
     transition-duration: 0.4s;
 
 }

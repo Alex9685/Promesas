@@ -6,7 +6,7 @@ function peticion() {
     const fran = document.createDocumentFragment();
     const idtem = document.getElementById("idtem");
 
-    //Checar con el template
+    //Checar con el template y codigicación de la funcion principal
 
     http.onreadystatechange = function () {
 
@@ -52,5 +52,10 @@ function peticion() {
     http.open('GET', url, true);
     http.send();
 
+    document.getElementById('btnLimpiar').addEventListener('click',function(){
+        const res=document.getElementById('resultado');
+        res.innerHTML="";
+       
+    }); 
 
 }

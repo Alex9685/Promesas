@@ -113,13 +113,13 @@ hr {
 
 .lblAlbumId {
     background-color: rgba(81, 29, 130, 0.899);
-    color: white;
+    color: rgb(255, 255, 255);
     width: 130px;
 }
 
 .lblId {
     background-color: rgba(81, 29, 130, 0.899);
-    color: white;
+    color: rgb(255, 255, 255);
     width: 120px;
 }
 
@@ -232,7 +232,6 @@ body {
     background-color: #000000ee;
     justify-content: center;
     align-items: center;
-
 }
 
 h1 {
